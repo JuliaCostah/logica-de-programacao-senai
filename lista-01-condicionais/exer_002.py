@@ -1,6 +1,7 @@
+
 idade = int(input('Sua idade: '))
 
-#Classificações
+#Classificações:
 
 if idade <= 12:
     print('Criança.')
