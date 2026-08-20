@@ -6,8 +6,3 @@ Este repositório contém a resolução dos exercícios e listas práticas desen
 
 - **`lista-01-condicionais/`**: Resolução de exercícios focados em estruturas condicionais (`if`, `else`, `elif`) em Python.
 
-## 🛠️ Tecnologias Utilizadas
-
-- **Linguagem:** Python 3
-- **Editor:** VS Code
-- **Sistema Operacional:** Linux
