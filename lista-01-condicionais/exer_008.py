@@ -20,6 +20,6 @@ elif operador == '/':
         calculo = num1/num2
         print(f'A divisão é {calculo}')
 else:
-    print(f'Operador inválido.')
+    print(f'Operador inválido.') 
     
     
