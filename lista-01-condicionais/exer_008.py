@@ -15,7 +15,7 @@ elif operador == '*':
     print(f'A multiplicação é {calculo}')
 elif operador == '/':
     if num2 == 0:
-        print('ímpossivel dividir por zero.')
+        print('Impossivel dividir por zero.')
     else:    
         calculo = num1/num2
         print(f'A divisão é {calculo}')
