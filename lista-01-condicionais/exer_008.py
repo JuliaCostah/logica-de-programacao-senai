@@ -14,8 +14,8 @@ elif operador == '*':
     calculo = num1 * num2
     print(f'A multiplicação é {calculo}')
 elif operador == '/':
-    if num2 == 0:
-        print('Impossivel dividir por zero.')
+    if num1 == 0 or num2 == 0:
+        print('Impossivel divisão por zero.')
     else:    
         calculo = num1/num2
         print(f'A divisão é {calculo}')
