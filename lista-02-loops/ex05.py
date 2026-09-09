@@ -2,7 +2,7 @@ import os
 notas = []
 
 while True:
-    n = float(input('Notas (-1 para finalizar): R$'))
+    n = float(input('Notas (-1 para finalizar): '))
     if n == -1:
         break
     else:
@@ -10,9 +10,9 @@ while True:
     os.system('cls' if os.name == 'nt' else 'clear')
 
 if notas:  
-    print('   Notas Cadastradas')
+    print('Notas Cadastradas')
     for n in notas:
-        print(f'R$ {n:.2f} | ',end='')
+        print(f'{n:.2f} | ',end='')
 
     media = sum(notas)/len(notas)
     print(f'\nQuantidade: {len(notas)} | Maior nota: {max(notas)} | Menor nota: {min(notas)}')
